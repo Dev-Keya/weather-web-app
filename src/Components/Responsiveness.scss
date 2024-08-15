@@ -1,0 +1,222 @@
+// large screen 
+
+@media (min-width: 769px) {
+  html {
+    font-size: 25px;
+
+    .main-container {
+      .weather-app {
+        //  border: 2px solid rgb(105, 105, 105);
+        .top-part {
+          // border: 1px solid pink;
+
+          .serach-bar {
+            .location {}
+
+            .search-icon {}
+          }
+        }
+
+        .middle-part {
+
+          // border: 1px solid rgb(105, 219, 133);
+
+          .humid-windy {
+
+
+            .humid,
+            .windy {}
+
+          }
+
+          p {
+            font-size: 1rem;
+          }
+
+          .display-temperature {
+            font-size: 3rem;
+          }
+
+          .weather-img {
+            // border: 2px solid blue;
+            width: 254px;
+            height: 254px;
+          }
+        }
+
+        .bottom-part {
+          border: 1px solid rgb(87, 94, 185);
+        }
+      }
+    }
+  }
+}
+
+// Tablet screen 
+
+@media (min-width:451px) and (max-width: 768px) {
+  html {
+    font-size: 18px;
+
+    .main-container {
+      .weather-app {
+        // border: 2px solid rgb(105, 105, 105);
+
+
+        .top-part {
+          // border: 1px solid pink;
+
+
+          .serach-bar {
+            .location {}
+
+            .search-icon {}
+
+          }
+        }
+
+        .middle-part {
+
+          //border: 1px solid rgb(105, 219, 133);
+
+          .humid-windy {
+
+            .humid,
+            .windy {}
+
+          }
+
+          p {
+            font-size: 1rem;
+          }
+
+          .display-temperature {
+            font-size: 3rem;
+          }
+
+          .weather-img {
+            //border: 2px solid blue;
+
+            width: 130px;
+            height: 100px;
+
+          }
+        }
+
+        .bottom-part {
+          //  border: 1px solid rgb(87, 94, 185);
+        }
+      }
+    }
+
+  }
+}
+
+// Mobile screen 
+
+@media (min-width:0px) and (max-width: 450px) {
+  html {
+    font-size: 12px;
+
+    .main-container {
+      .weather-app {
+        //border: 2px solid rgb(105, 105, 105);
+
+
+        .top-part {
+          // border: 1px solid pink;
+
+
+          .serach-bar {
+            .location {}
+
+            .search-icon {}
+
+          } 
+        }
+
+        .middle-part {
+
+          //  border: 1px solid rgb(105, 219, 133);
+
+          .humid-windy {
+
+            .humid,
+            .windy {}
+
+          }
+
+          p {
+            font-size: 1rem;
+          }
+
+          .display-temperature {
+            font-size: 3rem;
+          }
+
+          .weather-img {
+            // border: 2px solid blue;
+            width: 154px;
+            height: 83px;
+
+          }
+        }
+
+
+        .bottom-part {
+          border: 1px solid rgb(87, 94, 185);
+        }
+      }
+    }
+  }
+}
+
+
+
+.main-container {
+  .weather-app {
+    // border: 2px solid rgb(105, 105, 105);
+
+
+    .top-part {
+      //border: 1px solid pink;
+
+
+      .serach-bar {
+        .location {}
+
+        .search-icon {}
+
+      }
+
+      .weather-img {
+        //border: 2px solid blue;
+
+      }
+    }
+
+    .middle-part {
+
+      // border: 1px solid rgb(105, 219, 133);
+
+      .humid-windy {
+
+        .humid,
+        .windy {}
+
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .display-temperature {
+        font-size: 3rem;
+      }
+    }
+
+    .bottom-part {
+      border: 1px solid rgb(87, 94, 185);
+    }
+  }
+}
