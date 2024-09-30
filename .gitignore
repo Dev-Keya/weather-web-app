@@ -12,6 +12,8 @@ dist
 dist-ssr
 *.local
 rough.jsx
+.gitignore
+
 
 # Editor directories and files
 .vscode/*
